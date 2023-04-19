@@ -8,23 +8,6 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.datasets import mnist
 
-# Assume 'a' is an activation map (output of a convolution with a kernel)
-a = np.random.random(size=(10, 12, 12, 1))
-
-activation_map = keras.backend.variable(a)
-
-max_pool_2D(activation_map)
-
-# Let us plot the output
-fig, ax = plt.subplots(figsize=[10,10])
-im = ax.imshow(activation_map[0,:,:,0], cmap='gray', vmin=0, vmax=1)
-
-
-for i in range(12):
-    for j in range(12):
-        text = ax.text(j, i, np.format_float_positional(activation_map[0,i,j,0], precision=3),
-                       ha="center", va="center", color="blue")
-
 max_pool_2D = keras.layers.MaxPool2D(
     pool_size=(2, 2),
     strides=2,
@@ -32,16 +15,6 @@ max_pool_2D = keras.layers.MaxPool2D(
     data_format=None,
 )
 
-pooled_map = max_pool_2D(activation_map)
-
-fig, ax = plt.subplots(figsize=[10, 10])
-im = ax.imshow(pooled_map[0,:,:,0], cmap='gray', vmin=0, vmax=1)
-
-for i in range(6):
-    for j in range(6):
-        text = ax.text(j, i, np.format_float_positional(pooled_map[0,i,j,0], precision=3),
-                       ha="center", va="center", color="blue")  
-                       
 model = Sequential([
     Conv2D(filters=10, kernel_size=3, strides=(1, 1), padding='valid'),
     MaxPooling2D(pool_size=(2, 2), strides=2),

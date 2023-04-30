@@ -1,0 +1,7 @@
+go module
+=========
+
+.. automodule:: go
+   :members:
+   :undoc-members:
+   :show-inheritance:

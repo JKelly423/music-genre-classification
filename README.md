@@ -16,4 +16,10 @@ Source file type for this project is
 
 ---
 ## Copyright
-&copy; 2023 Jack Kelly, Dylan Kiratli, Luke Gries, and Zad Khan
+&copy; 2023 Jack Kelly
+
+&copy; 2023 Dylan Kiratli
+
+&copy; 2023 Luke Gries
+
+&copy; 2023 Zad Khan

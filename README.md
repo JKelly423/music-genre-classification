@@ -1,6 +1,6 @@
 # Music Genre Classification
 
-#### By Jack Kelly, Dylan Kiratli, Luke Gries, and Zad Khan
+#### By [Jack Kelly](https://github.com/jkelly423), [Dylan Kiratli](https://github.com/dylank12), [Luke Gries](https://github.com/ljgries), and [Zad Khan](https://github.com/zadkhan)
 
 ----
 

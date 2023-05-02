@@ -1,4 +1,4 @@
-# Music Genre Classification
+# :musical_note: [Music Genre Classification](https://github.com/JKelly423/music-genre-classification/wiki)
 
 #### By [Jack Kelly](https://github.com/jkelly423), [Dylan Kiratli](https://github.com/dylank12), [Luke Gries](https://github.com/ljgries), and [Zad Khan](https://github.com/zadkhan)
 
@@ -11,7 +11,8 @@ Source file type for this project is
 ---
 ## Article
 
-#### An Article documenting our idea, approach, results, and conclusions [can be read here.](https://medium.com/@zakh_54989/music-genre-classification-fd5b203527fa)
+#### An Article documenting our idea, approach, results, and conclusions [can be read on Medium.com here.](https://medium.com/@zakh_54989/music-genre-classification-fd5b203527fa)
+#### The same article can also be found on [this repository's Wiki page.](https://github.com/JKelly423/music-genre-classification/wiki)
 
 
 ---

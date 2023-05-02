@@ -9,6 +9,12 @@ Final project for Artificial Neural Networks and Deep Learning.
 Source file type for this project is 
 
 ---
+## Article
+
+#### An Article documenting our idea, approach, results, and conclusions [can be read here.](https://medium.com/@zakh_54989/music-genre-classification-fd5b203527fa)
+
+
+---
 ## Documentation
 
 #### Searchable Full Documentation can be read on the [the Music-Genre-Classification Project Website](https://jkelly423.github.io/music-genre-classification/)
